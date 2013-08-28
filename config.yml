@@ -16,7 +16,7 @@ production_url: "http://sample.com"
 #  To host at the path: http://myuniversity.edu/staff/me/~/blog.
 #  set base_path: "/staff/me/~/blog"
 # NOTE: base_path is never added in development mode (for convenience).
-base_path: "/"
+base_path: "/hello-world/"
 
 # Tell ruhoh which folder will model the "theme"
 twitter :
