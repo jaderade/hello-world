@@ -4,6 +4,17 @@
     <title>Blog Title</title>
     <description>Blog Title</description>
     <link>http://sample.com</link>
-    <pubDate>2013-08-31 00:31:01 -0700</pubDate>
+    <pubDate>2013-08-31 00:39:43 -0700</pubDate>
+    <item>
+      <title>My first post =)</title>
+      <link>http://sample.com/hello-world/my-first-post</link>
+      <pubDate>2013-08-31</pubDate>
+      <description>&lt;h1 id="toc_0"&gt;Oh yeahhhhhh!!&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Derp derp&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
   </channel>
 </rss>
