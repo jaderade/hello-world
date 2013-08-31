@@ -4,7 +4,7 @@
     <title>Blog Title</title>
     <description>Blog Title</description>
     <link>http://sample.com</link>
-    <pubDate>2013-08-31 00:39:43 -0700</pubDate>
+    <pubDate>2013-08-31 00:46:18 -0700</pubDate>
     <item>
       <title>My first post =)</title>
       <link>http://sample.com/hello-world/my-first-post</link>
@@ -14,6 +14,22 @@
 &lt;blockquote&gt;
 &lt;p&gt;Derp derp&lt;/p&gt;
 &lt;/blockquote&gt;
+</description>
+    </item>
+    <item>
+      <title>second post brah</title>
+      <link>http://sample.com/hello-world/second-post-brah</link>
+      <pubDate>2013-08-31</pubDate>
+      <description>&lt;ul&gt;
+&lt;li&gt;and &lt;/li&gt;
+&lt;li&gt;we &lt;/li&gt;
+&lt;li&gt;gonna &lt;/li&gt;
+&lt;li&gt;let &lt;/li&gt;
+&lt;li&gt;it&lt;/li&gt;
+&lt;li&gt;burn &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;^_^&lt;/p&gt;
 </description>
     </item>
   </channel>
