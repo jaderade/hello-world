@@ -15,8 +15,32 @@ production_url: "http://sample.com"
 # Example:
 #  To host at the path: http://myuniversity.edu/staff/me/~/blog.
 #  set base_path: "/staff/me/~/blog"
+# NOTE: This will compile your blog using the full root-path
+#       so your compiled directory will look like this:
+#       |- staff
+#          |- me
+#             |- ~
+#               |- blog
+#       Set "compile_as_root" to true if you'd like to compile your site as the root directory:
+#       |- blog
+#
 # NOTE: base_path is never added in development mode (for convenience).
 base_path: "/hello-world/"
+
+# Set "compile_as_root" to true if you'd like to ensure your compiled site
+# is compiled from the root path when base_path is set.
+# This solves the problem when a webhost such as GitHub hosts your site from a sub-directory
+# but the folder you upload your website contents to is treated as the website "root".
+# Example:
+#         http://plusjade.github.io/cool-project
+#
+#         URLS on this website should have base_path : '/cool-project/'
+#         But the web-site directory structure should NOT be contained in the cool-project directory.
+compile_as_root: true
+
+deploy:
+  use : 'github'
+
 
 # Tell ruhoh which folder will model the "theme"
 twitter :
